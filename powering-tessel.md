@@ -7,7 +7,7 @@ This page covers the following:
 *  An overview of the power plant's features and behavior
 *  How to power Tessel through the USB port
 *  How to power Tessel through the VIN headers
-*  How to swap between external and USB power
+*  How to swap between external and USB powerd
 *  Usage of the GPIO bank's VIN pin
 *  Calculating your maximum output current at 3.3 V
 *  Power consumption
@@ -76,7 +76,7 @@ If you are unsure of how to proceed, check the forums (at this point a work in p
 
 ## Current available on the 3.3 V rail
 
-The DCDC converter ([datahseet](http://www.ti.com/lit/ds/symlink/tps62132.pdf)) and related circuitry in the power plant conserve power and are rated to a maximum of 3 A. Therefore, the actual maximum output current depends on the voltage and current rating of the power supply and the efficiency of the DCDC converter (represented by the Greek letter eta):
+The DCDC converter ([datasheet](http://www.ti.com/lit/ds/symlink/tps62132.pdf)) and related circuitry in the power plant conserve power and are rated to a maximum of 3 A. Therefore, the actual maximum output current depends on the voltage and current rating of the power supply and the efficiency of the DCDC converter (represented by the Greek letter eta):
 
 ![current math](https://s3.amazonaws.com/technicalmachine-assets/doc+pictures/hardware_design_docs/dcdc-iout.png)
 
